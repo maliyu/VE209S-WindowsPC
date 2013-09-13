@@ -13,7 +13,9 @@ namespace VE209S_WindowsPC
     {
         private SerialPort ve209s_usb_serial_port = null;
         private VE209S_WindowsPCCOMselection form_VE209S_WindowsPCCOMselection = null;
+        private string rxRevData = null;
         private bool led1_status = false;
+        private bool switch1_status = false;
 
         public VE209S_WindownsPCdemo()
         {
@@ -76,15 +78,24 @@ namespace VE209S_WindowsPC
 
         private void ve209s_usb_serial_port_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
-            string rx_buffer = ve209s_usb_serial_port.ReadExisting();
+            rxRevData = ve209s_usb_serial_port.ReadExisting();
 
-            switch (rx_buffer)
+            this.Invoke(new EventHandler(ve209s_usb_serial_port_revDataCtrl));
+        }
+
+        private void ve209s_usb_serial_port_revDataCtrl(object sender, EventArgs e)
+        {
+            switch (rxRevData)
             {
                 case "ON 1\r":
                     led1.Image = VE209S_WindowsPC.Properties.Resources.light_bulb_on;
+                    led1_status = true;
+                    switch1_status = true;
                     break;
                 case "OFF 1\r":
                     led1.Image = VE209S_WindowsPC.Properties.Resources.light_bulb_off;
+                    led1_status = false;
+                    switch1_status = false;
                     break;
                 default:
                     break;
@@ -93,14 +104,14 @@ namespace VE209S_WindowsPC
 
         private void switch1_Click(object sender, EventArgs e)
         {
-            if (led1_status)
+            if (switch1_status)
             {
                 // led 1 is on now, so click is to turn it off
                 switch1.Image = VE209S_WindowsPC.Properties.Resources.Light_Switch_Off_clip_art_medium;
 
                 ve209s_usb_serial_port_tx("OFF 1");
 
-                led1_status = false;
+                switch1_status = false;
             } 
             else
             {
@@ -108,7 +119,7 @@ namespace VE209S_WindowsPC
                 switch1.Image = VE209S_WindowsPC.Properties.Resources.Light_Switch_On_clip_art_medium;
                 ve209s_usb_serial_port_tx("ON 1");
 
-                led1_status = true;
+                switch1_status = true;
             }
         }
 
