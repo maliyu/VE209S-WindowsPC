@@ -1,0 +1,9 @@
+C:\Work\maliyu\Personal\VE209S-WindowsPC\bin\Debug\VE209S-WindowsPC.exe
+C:\Work\maliyu\Personal\VE209S-WindowsPC\bin\Debug\VE209S-WindowsPC.pdb
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\ResolveAssemblyReference.cache
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\VE209S_WindowsPC.Properties.Resources.resources
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\VE209S-WindowsPC.csproj.GenerateResource.Cache
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\VE209S-WindowsPC.exe
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\VE209S-WindowsPC.pdb
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\VE209S_WindowsPC.VE209S_WindowsPCCOMselection.resources
+C:\Work\maliyu\Personal\VE209S-WindowsPC\obj\Debug\VE209S_WindowsPC.VE209S_WindownsPCdemo.resources
