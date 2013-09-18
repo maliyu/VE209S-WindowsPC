@@ -28,32 +28,255 @@ namespace VE209S_WindowsPC
         /// </summary>
         private void InitializeComponent()
         {
-            this.led5 = new System.Windows.Forms.PictureBox();
-            this.led4 = new System.Windows.Forms.PictureBox();
-            this.led3 = new System.Windows.Forms.PictureBox();
-            this.led2 = new System.Windows.Forms.PictureBox();
-            this.led1 = new System.Windows.Forms.PictureBox();
-            this.switch1 = new System.Windows.Forms.PictureBox();
-            this.switch2 = new System.Windows.Forms.PictureBox();
-            this.switch3 = new System.Windows.Forms.PictureBox();
-            this.switch4 = new System.Windows.Forms.PictureBox();
-            this.switch5 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.dimmer5CounterClockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer5Clockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer4CounterClockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer4Clockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer3CounterClockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer3Clockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer2CounterClockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer2Clockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer1CounterClockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer1Clockwise = new System.Windows.Forms.PictureBox();
+            this.dimmer5 = new System.Windows.Forms.PictureBox();
+            this.dimmer4 = new System.Windows.Forms.PictureBox();
+            this.dimmer3 = new System.Windows.Forms.PictureBox();
+            this.dimmer2 = new System.Windows.Forms.PictureBox();
+            this.dimmer1 = new System.Windows.Forms.PictureBox();
+            this.led5 = new System.Windows.Forms.PictureBox();
+            this.led4 = new System.Windows.Forms.PictureBox();
+            this.led3 = new System.Windows.Forms.PictureBox();
+            this.led2 = new System.Windows.Forms.PictureBox();
+            this.led1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer5CounterClockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer5Clockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer4CounterClockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer4Clockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer3CounterClockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer3Clockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer2CounterClockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer2Clockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer1CounterClockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer1Clockwise)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.led5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.led4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.led3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.led2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.led1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch5)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(44, 6);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(24, 26);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "1";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(219, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(24, 26);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "2";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Location = new System.Drawing.Point(391, 6);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(24, 26);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "3";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label4.Location = new System.Drawing.Point(561, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(24, 26);
+            this.label4.TabIndex = 13;
+            this.label4.Text = "4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label5.Location = new System.Drawing.Point(723, 6);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(24, 26);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "5";
+            // 
+            // dimmer5CounterClockwise
+            // 
+            this.dimmer5CounterClockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Counterclockwise_arrow_icon;
+            this.dimmer5CounterClockwise.Location = new System.Drawing.Point(735, 328);
+            this.dimmer5CounterClockwise.Name = "dimmer5CounterClockwise";
+            this.dimmer5CounterClockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer5CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer5CounterClockwise.TabIndex = 24;
+            this.dimmer5CounterClockwise.TabStop = false;
+            // 
+            // dimmer5Clockwise
+            // 
+            this.dimmer5Clockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Clockwise_arrow_icon;
+            this.dimmer5Clockwise.Location = new System.Drawing.Point(680, 328);
+            this.dimmer5Clockwise.Name = "dimmer5Clockwise";
+            this.dimmer5Clockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer5Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer5Clockwise.TabIndex = 23;
+            this.dimmer5Clockwise.TabStop = false;
+            // 
+            // dimmer4CounterClockwise
+            // 
+            this.dimmer4CounterClockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Counterclockwise_arrow_icon;
+            this.dimmer4CounterClockwise.Location = new System.Drawing.Point(577, 328);
+            this.dimmer4CounterClockwise.Name = "dimmer4CounterClockwise";
+            this.dimmer4CounterClockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer4CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer4CounterClockwise.TabIndex = 22;
+            this.dimmer4CounterClockwise.TabStop = false;
+            // 
+            // dimmer4Clockwise
+            // 
+            this.dimmer4Clockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Clockwise_arrow_icon;
+            this.dimmer4Clockwise.Location = new System.Drawing.Point(522, 328);
+            this.dimmer4Clockwise.Name = "dimmer4Clockwise";
+            this.dimmer4Clockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer4Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer4Clockwise.TabIndex = 21;
+            this.dimmer4Clockwise.TabStop = false;
+            // 
+            // dimmer3CounterClockwise
+            // 
+            this.dimmer3CounterClockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Counterclockwise_arrow_icon;
+            this.dimmer3CounterClockwise.Location = new System.Drawing.Point(415, 328);
+            this.dimmer3CounterClockwise.Name = "dimmer3CounterClockwise";
+            this.dimmer3CounterClockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer3CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer3CounterClockwise.TabIndex = 20;
+            this.dimmer3CounterClockwise.TabStop = false;
+            // 
+            // dimmer3Clockwise
+            // 
+            this.dimmer3Clockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Clockwise_arrow_icon;
+            this.dimmer3Clockwise.Location = new System.Drawing.Point(360, 328);
+            this.dimmer3Clockwise.Name = "dimmer3Clockwise";
+            this.dimmer3Clockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer3Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer3Clockwise.TabIndex = 19;
+            this.dimmer3Clockwise.TabStop = false;
+            // 
+            // dimmer2CounterClockwise
+            // 
+            this.dimmer2CounterClockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Counterclockwise_arrow_icon;
+            this.dimmer2CounterClockwise.Location = new System.Drawing.Point(239, 328);
+            this.dimmer2CounterClockwise.Name = "dimmer2CounterClockwise";
+            this.dimmer2CounterClockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer2CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer2CounterClockwise.TabIndex = 18;
+            this.dimmer2CounterClockwise.TabStop = false;
+            // 
+            // dimmer2Clockwise
+            // 
+            this.dimmer2Clockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Clockwise_arrow_icon;
+            this.dimmer2Clockwise.Location = new System.Drawing.Point(184, 328);
+            this.dimmer2Clockwise.Name = "dimmer2Clockwise";
+            this.dimmer2Clockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer2Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer2Clockwise.TabIndex = 17;
+            this.dimmer2Clockwise.TabStop = false;
+            // 
+            // dimmer1CounterClockwise
+            // 
+            this.dimmer1CounterClockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Counterclockwise_arrow_icon;
+            this.dimmer1CounterClockwise.InitialImage = null;
+            this.dimmer1CounterClockwise.Location = new System.Drawing.Point(68, 328);
+            this.dimmer1CounterClockwise.Name = "dimmer1CounterClockwise";
+            this.dimmer1CounterClockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer1CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer1CounterClockwise.TabIndex = 16;
+            this.dimmer1CounterClockwise.TabStop = false;
+            this.dimmer1CounterClockwise.Click += new System.EventHandler(this.dimmer1CounterClockwise_Click);
+            // 
+            // dimmer1Clockwise
+            // 
+            this.dimmer1Clockwise.Image = global::VE209S_WindowsPC.Properties.Resources.Clockwise_arrow_icon;
+            this.dimmer1Clockwise.Location = new System.Drawing.Point(13, 328);
+            this.dimmer1Clockwise.Name = "dimmer1Clockwise";
+            this.dimmer1Clockwise.Size = new System.Drawing.Size(49, 49);
+            this.dimmer1Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer1Clockwise.TabIndex = 15;
+            this.dimmer1Clockwise.TabStop = false;
+            this.dimmer1Clockwise.Click += new System.EventHandler(this.dimmer1Clockwise_Click);
+            // 
+            // dimmer5
+            // 
+            this.dimmer5.Image = global::VE209S_WindowsPC.Properties.Resources.tuner0;
+            this.dimmer5.Location = new System.Drawing.Point(680, 218);
+            this.dimmer5.Name = "dimmer5";
+            this.dimmer5.Size = new System.Drawing.Size(104, 104);
+            this.dimmer5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer5.TabIndex = 9;
+            this.dimmer5.TabStop = false;
+            // 
+            // dimmer4
+            // 
+            this.dimmer4.Image = global::VE209S_WindowsPC.Properties.Resources.tuner0;
+            this.dimmer4.Location = new System.Drawing.Point(522, 218);
+            this.dimmer4.Name = "dimmer4";
+            this.dimmer4.Size = new System.Drawing.Size(104, 104);
+            this.dimmer4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer4.TabIndex = 8;
+            this.dimmer4.TabStop = false;
+            // 
+            // dimmer3
+            // 
+            this.dimmer3.Image = global::VE209S_WindowsPC.Properties.Resources.tuner0;
+            this.dimmer3.Location = new System.Drawing.Point(360, 218);
+            this.dimmer3.Name = "dimmer3";
+            this.dimmer3.Size = new System.Drawing.Size(104, 104);
+            this.dimmer3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer3.TabIndex = 7;
+            this.dimmer3.TabStop = false;
+            // 
+            // dimmer2
+            // 
+            this.dimmer2.Image = global::VE209S_WindowsPC.Properties.Resources.tuner0;
+            this.dimmer2.Location = new System.Drawing.Point(184, 218);
+            this.dimmer2.Name = "dimmer2";
+            this.dimmer2.Size = new System.Drawing.Size(104, 104);
+            this.dimmer2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer2.TabIndex = 6;
+            this.dimmer2.TabStop = false;
+            // 
+            // dimmer1
+            // 
+            this.dimmer1.Image = global::VE209S_WindowsPC.Properties.Resources.tuner0;
+            this.dimmer1.Location = new System.Drawing.Point(13, 218);
+            this.dimmer1.Name = "dimmer1";
+            this.dimmer1.Size = new System.Drawing.Size(104, 104);
+            this.dimmer1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.dimmer1.TabIndex = 5;
+            this.dimmer1.TabStop = false;
             // 
             // led5
             // 
@@ -110,122 +333,31 @@ namespace VE209S_WindowsPC
             this.led1.TabIndex = 0;
             this.led1.TabStop = false;
             // 
-            // switch1
-            // 
-            this.switch1.Image = global::VE209S_WindowsPC.Properties.Resources.Light_Switch_Off_clip_art_medium;
-            this.switch1.Location = new System.Drawing.Point(13, 218);
-            this.switch1.Name = "switch1";
-            this.switch1.Size = new System.Drawing.Size(96, 149);
-            this.switch1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.switch1.TabIndex = 5;
-            this.switch1.TabStop = false;
-            this.switch1.Click += new System.EventHandler(this.switch1_Click);
-            // 
-            // switch2
-            // 
-            this.switch2.Image = global::VE209S_WindowsPC.Properties.Resources.Light_Switch_Off_clip_art_medium;
-            this.switch2.Location = new System.Drawing.Point(185, 218);
-            this.switch2.Name = "switch2";
-            this.switch2.Size = new System.Drawing.Size(96, 149);
-            this.switch2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.switch2.TabIndex = 6;
-            this.switch2.TabStop = false;
-            // 
-            // switch3
-            // 
-            this.switch3.Image = global::VE209S_WindowsPC.Properties.Resources.Light_Switch_Off_clip_art_medium;
-            this.switch3.Location = new System.Drawing.Point(360, 218);
-            this.switch3.Name = "switch3";
-            this.switch3.Size = new System.Drawing.Size(96, 149);
-            this.switch3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.switch3.TabIndex = 7;
-            this.switch3.TabStop = false;
-            // 
-            // switch4
-            // 
-            this.switch4.Image = global::VE209S_WindowsPC.Properties.Resources.Light_Switch_Off_clip_art_medium;
-            this.switch4.Location = new System.Drawing.Point(530, 218);
-            this.switch4.Name = "switch4";
-            this.switch4.Size = new System.Drawing.Size(96, 149);
-            this.switch4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.switch4.TabIndex = 8;
-            this.switch4.TabStop = false;
-            // 
-            // switch5
-            // 
-            this.switch5.Image = global::VE209S_WindowsPC.Properties.Resources.Light_Switch_Off_clip_art_medium;
-            this.switch5.Location = new System.Drawing.Point(688, 218);
-            this.switch5.Name = "switch5";
-            this.switch5.Size = new System.Drawing.Size(96, 149);
-            this.switch5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.switch5.TabIndex = 9;
-            this.switch5.TabStop = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(44, 6);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 26);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(219, 6);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 26);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(391, 6);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 26);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(561, 6);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(24, 26);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "4";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label5.Location = new System.Drawing.Point(723, 6);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(24, 26);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "5";
-            // 
             // VE209S_WindownsPCdemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 401);
+            this.ClientSize = new System.Drawing.Size(796, 444);
+            this.Controls.Add(this.dimmer5CounterClockwise);
+            this.Controls.Add(this.dimmer5Clockwise);
+            this.Controls.Add(this.dimmer4CounterClockwise);
+            this.Controls.Add(this.dimmer4Clockwise);
+            this.Controls.Add(this.dimmer3CounterClockwise);
+            this.Controls.Add(this.dimmer3Clockwise);
+            this.Controls.Add(this.dimmer2CounterClockwise);
+            this.Controls.Add(this.dimmer2Clockwise);
+            this.Controls.Add(this.dimmer1CounterClockwise);
+            this.Controls.Add(this.dimmer1Clockwise);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.switch5);
-            this.Controls.Add(this.switch4);
-            this.Controls.Add(this.switch3);
-            this.Controls.Add(this.switch2);
-            this.Controls.Add(this.switch1);
+            this.Controls.Add(this.dimmer5);
+            this.Controls.Add(this.dimmer4);
+            this.Controls.Add(this.dimmer3);
+            this.Controls.Add(this.dimmer2);
+            this.Controls.Add(this.dimmer1);
             this.Controls.Add(this.led5);
             this.Controls.Add(this.led4);
             this.Controls.Add(this.led3);
@@ -237,16 +369,26 @@ namespace VE209S_WindowsPC
             this.Text = "VE209S Demo";
             this.Load += new System.EventHandler(this.VE209S_WindownsPCdemo_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.VE209S_WindownsPCdemo_FormClosing);
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer5CounterClockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer5Clockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer4CounterClockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer4Clockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer3CounterClockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer3Clockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer2CounterClockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer2Clockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer1CounterClockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer1Clockwise)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dimmer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.led5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.led4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.led3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.led2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.led1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.switch5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -259,15 +401,25 @@ namespace VE209S_WindowsPC
         private System.Windows.Forms.PictureBox led3;
         private System.Windows.Forms.PictureBox led4;
         private System.Windows.Forms.PictureBox led5;
-        private System.Windows.Forms.PictureBox switch1;
-        private System.Windows.Forms.PictureBox switch2;
-        private System.Windows.Forms.PictureBox switch3;
-        private System.Windows.Forms.PictureBox switch4;
-        private System.Windows.Forms.PictureBox switch5;
+        private System.Windows.Forms.PictureBox dimmer1;
+        private System.Windows.Forms.PictureBox dimmer2;
+        private System.Windows.Forms.PictureBox dimmer3;
+        private System.Windows.Forms.PictureBox dimmer4;
+        private System.Windows.Forms.PictureBox dimmer5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox dimmer1Clockwise;
+        private System.Windows.Forms.PictureBox dimmer1CounterClockwise;
+        private System.Windows.Forms.PictureBox dimmer2CounterClockwise;
+        private System.Windows.Forms.PictureBox dimmer2Clockwise;
+        private System.Windows.Forms.PictureBox dimmer3CounterClockwise;
+        private System.Windows.Forms.PictureBox dimmer3Clockwise;
+        private System.Windows.Forms.PictureBox dimmer4CounterClockwise;
+        private System.Windows.Forms.PictureBox dimmer4Clockwise;
+        private System.Windows.Forms.PictureBox dimmer5CounterClockwise;
+        private System.Windows.Forms.PictureBox dimmer5Clockwise;
     }
 }

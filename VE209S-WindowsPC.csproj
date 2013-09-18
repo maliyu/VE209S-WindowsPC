@@ -105,6 +105,36 @@
   <ItemGroup>
     <None Include="Resources\Light_Switch_Off_clip_art_small.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuner4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuner3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuner1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuner0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows_back_forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forward Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Counterclockwise-arrow-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clockwise-arrow-icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

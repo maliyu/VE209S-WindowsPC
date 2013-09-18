@@ -60,6 +60,41 @@ namespace VE209S_WindowsPC.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap arrows_back_forward {
+            get {
+                object obj = ResourceManager.GetObject("arrows_back_forward", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Back_Arrow {
+            get {
+                object obj = ResourceManager.GetObject("Back_Arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Clockwise_arrow_icon {
+            get {
+                object obj = ResourceManager.GetObject("Clockwise_arrow_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Counterclockwise_arrow_icon {
+            get {
+                object obj = ResourceManager.GetObject("Counterclockwise_arrow_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Forward_Arrow {
+            get {
+                object obj = ResourceManager.GetObject("Forward_Arrow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap light_bulb_off {
             get {
                 object obj = ResourceManager.GetObject("light_bulb_off", resourceCulture);
@@ -91,6 +126,41 @@ namespace VE209S_WindowsPC.Properties {
         internal static System.Drawing.Bitmap rs232_male_female {
             get {
                 object obj = ResourceManager.GetObject("rs232_male_female", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap tuner0 {
+            get {
+                object obj = ResourceManager.GetObject("tuner0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap tuner1 {
+            get {
+                object obj = ResourceManager.GetObject("tuner1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap tuner2 {
+            get {
+                object obj = ResourceManager.GetObject("tuner2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap tuner3 {
+            get {
+                object obj = ResourceManager.GetObject("tuner3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap tuner4 {
+            get {
+                object obj = ResourceManager.GetObject("tuner4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
