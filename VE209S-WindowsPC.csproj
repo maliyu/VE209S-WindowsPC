@@ -135,6 +135,21 @@
   <ItemGroup>
     <None Include="Resources\Clockwise-arrow-icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bulb_on0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bulb_on4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bulb_on3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bulb_on2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\light_bulb_on1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

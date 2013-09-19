@@ -53,6 +53,9 @@ namespace VE209S_WindowsPC
             this.led3 = new System.Windows.Forms.PictureBox();
             this.led2 = new System.Windows.Forms.PictureBox();
             this.led1 = new System.Windows.Forms.PictureBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dimmer5CounterClockwise)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dimmer5Clockwise)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dimmer4CounterClockwise)).BeginInit();
@@ -134,6 +137,7 @@ namespace VE209S_WindowsPC
             this.dimmer5CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer5CounterClockwise.TabIndex = 24;
             this.dimmer5CounterClockwise.TabStop = false;
+            this.dimmer5CounterClockwise.Click += new System.EventHandler(this.dimmer5CounterClockwise_Click);
             // 
             // dimmer5Clockwise
             // 
@@ -144,6 +148,7 @@ namespace VE209S_WindowsPC
             this.dimmer5Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer5Clockwise.TabIndex = 23;
             this.dimmer5Clockwise.TabStop = false;
+            this.dimmer5Clockwise.Click += new System.EventHandler(this.dimmer5Clockwise_Click);
             // 
             // dimmer4CounterClockwise
             // 
@@ -154,6 +159,7 @@ namespace VE209S_WindowsPC
             this.dimmer4CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer4CounterClockwise.TabIndex = 22;
             this.dimmer4CounterClockwise.TabStop = false;
+            this.dimmer4CounterClockwise.Click += new System.EventHandler(this.dimmer4CounterClockwise_Click);
             // 
             // dimmer4Clockwise
             // 
@@ -164,6 +170,7 @@ namespace VE209S_WindowsPC
             this.dimmer4Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer4Clockwise.TabIndex = 21;
             this.dimmer4Clockwise.TabStop = false;
+            this.dimmer4Clockwise.Click += new System.EventHandler(this.dimmer4Clockwise_Click);
             // 
             // dimmer3CounterClockwise
             // 
@@ -174,6 +181,7 @@ namespace VE209S_WindowsPC
             this.dimmer3CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer3CounterClockwise.TabIndex = 20;
             this.dimmer3CounterClockwise.TabStop = false;
+            this.dimmer3CounterClockwise.Click += new System.EventHandler(this.dimmer3CounterClockwise_Click);
             // 
             // dimmer3Clockwise
             // 
@@ -184,6 +192,7 @@ namespace VE209S_WindowsPC
             this.dimmer3Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer3Clockwise.TabIndex = 19;
             this.dimmer3Clockwise.TabStop = false;
+            this.dimmer3Clockwise.Click += new System.EventHandler(this.dimmer3Clockwise_Click);
             // 
             // dimmer2CounterClockwise
             // 
@@ -194,6 +203,7 @@ namespace VE209S_WindowsPC
             this.dimmer2CounterClockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer2CounterClockwise.TabIndex = 18;
             this.dimmer2CounterClockwise.TabStop = false;
+            this.dimmer2CounterClockwise.Click += new System.EventHandler(this.dimmer2CounterClockwise_Click);
             // 
             // dimmer2Clockwise
             // 
@@ -204,6 +214,7 @@ namespace VE209S_WindowsPC
             this.dimmer2Clockwise.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.dimmer2Clockwise.TabIndex = 17;
             this.dimmer2Clockwise.TabStop = false;
+            this.dimmer2Clockwise.Click += new System.EventHandler(this.dimmer2Clockwise_Click);
             // 
             // dimmer1CounterClockwise
             // 
@@ -333,11 +344,35 @@ namespace VE209S_WindowsPC
             this.led1.TabIndex = 0;
             this.led1.TabStop = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(13, 384);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 25;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(184, 384);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 26;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(184, 411);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 27;
+            // 
             // VE209S_WindownsPCdemo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(796, 444);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dimmer5CounterClockwise);
             this.Controls.Add(this.dimmer5Clockwise);
             this.Controls.Add(this.dimmer4CounterClockwise);
@@ -421,5 +456,8 @@ namespace VE209S_WindowsPC
         private System.Windows.Forms.PictureBox dimmer4Clockwise;
         private System.Windows.Forms.PictureBox dimmer5CounterClockwise;
         private System.Windows.Forms.PictureBox dimmer5Clockwise;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }

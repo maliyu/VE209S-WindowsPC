@@ -109,6 +109,41 @@ namespace VE209S_WindowsPC.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap light_bulb_on0 {
+            get {
+                object obj = ResourceManager.GetObject("light_bulb_on0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap light_bulb_on1 {
+            get {
+                object obj = ResourceManager.GetObject("light_bulb_on1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap light_bulb_on2 {
+            get {
+                object obj = ResourceManager.GetObject("light_bulb_on2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap light_bulb_on3 {
+            get {
+                object obj = ResourceManager.GetObject("light_bulb_on3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap light_bulb_on4 {
+            get {
+                object obj = ResourceManager.GetObject("light_bulb_on4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap Light_Switch_Off_clip_art_medium {
             get {
                 object obj = ResourceManager.GetObject("Light_Switch_Off_clip_art_medium", resourceCulture);
